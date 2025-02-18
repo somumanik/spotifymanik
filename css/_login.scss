@@ -1,0 +1,133 @@
+
+.main {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.main_mid {
+    max-width: 730px;
+    height: 110vh;
+    margin: auto;
+    // border: 1px solid red;
+
+}
+
+
+.main_mid div h1{
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+.main_mid_image
+{
+    width: 50%;
+    // border: 1px solid red;
+    margin: auto;
+    padding: 15px 0px;
+
+}
+.main_mid_image img, .heading h1{
+    display: block;
+    margin: auto;
+}
+.heading
+{
+    width: 50%;
+    // border: 1px solid red;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.content
+{
+    width: 45%;
+    // border: 1px solid red;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 0px 0.5px #ccc;
+    margin-bottom: 10px;
+ }
+ .content >div>h4{
+    color: white;
+ }
+ .content1
+ {
+    padding: 13px 0px;
+ }
+ .brdr1
+ {
+    width: 70%;
+    margin: auto;
+    box-shadow: 0px 0px 0px 0.2px #ccc;
+ }
+ form
+ {
+    width: 45%;
+    margin: auto;
+    // border: 1px solid red;
+    margin-top: 30px;
+ }
+ form div>p{
+    color: white;
+    padding: 6px 3px;
+ }
+ form input{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    box-shadow: 0px 0px 0px 0.7px #ccc;
+    border-radius: 5px;
+ }
+ .form1
+ {
+    margin-bottom: 15px;
+ }
+ form button
+ {
+    width: 100%;
+    padding: 15px 0px;
+    border: none;
+    outline: none;
+    background-color: #3BE477;
+    margin-top: 10px;
+    border-radius: 25px;
+    color: black;
+    font-size: 15px;
+ }
+form>a{
+    color: white;
+    padding: 20px 0px;
+    display: block;
+    text-align: center;
+}
+.signup
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup>a{
+   
+    color: white;
+}
+form p{
+    color: #B3B3B3;
+    font-size: 14px;
+}
+
+ footer
+ {
+    width: 100%;
+    // border: 1px solid blue;
+    height: 50px;
+    margin: auto;
+    background-color: #121212;
+ }
+ footer h5{
+    background-color: #121212;
+    text-align: center;
+    color: white;
+    padding: 30px 0px;
+ }

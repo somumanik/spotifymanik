@@ -1,0 +1,140 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    .header_mid {
+        /* width: 40%; */
+        padding: 0px;
+    }
+
+    .header_left_home {
+        width: 10px;
+    }
+
+    .bigimage {
+        display: none;
+    }
+
+    .smallimage {
+        display: block;
+    }
+
+    .header_midbar {
+        padding-right: 8px;
+        display: block;
+    }
+    
+    .mobilebarcontent
+    {
+        flex-basis: 50%;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: space-between;
+    }
+    .mobilebarcontent1
+    {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .serachwithbutton {
+        display: block;
+    }
+
+    .serachwithbutton {
+        padding-left: 25px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .fa-magnifying-glass {
+        font-size: 15px;
+    }
+
+    .serachwithbutton>div button {
+        border: none;
+        padding: 5px 8px;
+        background: white;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+
+    .headerhomesearch {
+        display: none;
+    }
+
+    .header_mid_right {
+        display: none;
+    }
+
+    .headerspotify {
+        padding-left: 10px;
+    }
+    /* Mobile Responsive Start */
+
+    .header_mid_right_navleftMobile
+    {
+        display: block;
+        position: fixed;
+        background-color: #000000;
+        width: 85%;
+        top: -10px;
+        
+        transition: 0.5s;
+        left: -100%;
+        /* right: -100%; */
+    }
+    .header_mid_right_navleftMobile nav ul {
+        padding: 40px 25px;
+        flex-direction: column;
+        height: 100vh;
+
+    }
+    .tripleicon
+    {
+        color: white;
+    }
+    .header_mid_right_navleftMobile nav ul li {
+        color: white;
+        padding: 5px 0px;
+    }
+    /* .header_mid_right_navleftMobile>span {
+        color: white;
+        font-size: 18px;
+        display: block;
+        padding-left: 260px;
+        padding-top: 15px;
+    } */
+    .showMegaMenu
+    {
+        left: 0%;
+        /* right: 0px; */
+    }
+    /* Mobile Responsive End */
+
+    .footer_mid
+    {
+        display: none;
+
+    }
+    .footer_mid_left h5, .footer_mid_left p
+    {
+        font-size: 10px;
+        padding: 0;
+        text-align: center;
+        
+    }
+    .footer_mid_left p
+    {
+        padding-bottom: 10px;
+    }
+    .section_mid_left
+    {
+        display: none;
+    }
+    .section_mid_right
+    {
+        flex-basis: 96%;
+        height: 100vh;
+        margin: 1.5%;
+        overflow-y: none;
+    }
+}
