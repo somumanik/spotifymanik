@@ -80,6 +80,7 @@
         
         transition: 0.5s;
         left: -100%;
+        z-index: 2;
         /* right: -100%; */
     }
     .header_mid_right_navleftMobile nav ul {
