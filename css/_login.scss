@@ -1,10 +1,10 @@
 
-.main {
+.main_1 {
     width: 100%;
     font-family: sans-serif;
 }
 
-.main_mid {
+.main_mid_1 {
     max-width: 730px;
     height: 110vh;
     margin: auto;
@@ -13,7 +13,7 @@
 }
 
 
-.main_mid div h1{
+.main_mid_1 div h1{
     font-size: 32px;
     padding-bottom: 15px;
 }
@@ -29,12 +29,15 @@
     display: block;
     margin: auto;
 }
-.heading
+.heading_1
 {
     width: 50%;
     // border: 1px solid red;
     margin: auto;
     padding-bottom: 15px;
+}
+.heading_1>h1{
+    text-align: center;
 }
 .content
 {
@@ -62,18 +65,18 @@
     margin: auto;
     box-shadow: 0px 0px 0px 0.2px #ccc;
  }
- form
+ .formNew
  {
     width: 45%;
     margin: auto;
     // border: 1px solid red;
     margin-top: 30px;
  }
- form div>p{
+ .formNew div>p{
     color: white;
     padding: 6px 3px;
  }
- form input{
+ .formNew input{
     width: 100%;
     padding: 10px 0px;
     border: none;
@@ -84,7 +87,7 @@
  {
     margin-bottom: 15px;
  }
- form button
+ .formNew button
  {
     width: 100%;
     padding: 15px 0px;
@@ -96,7 +99,7 @@
     color: black;
     font-size: 15px;
  }
-form>a{
+.formNew>a{
     color: white;
     padding: 20px 0px;
     display: block;
@@ -112,12 +115,12 @@ form>a{
    
     color: white;
 }
-form p{
+.formNew p{
     color: #B3B3B3;
     font-size: 14px;
 }
 
- footer
+.footer1_1_1
  {
     width: 100%;
     // border: 1px solid blue;
@@ -125,7 +128,7 @@ form p{
     margin: auto;
     background-color: #121212;
  }
- footer h5{
+ .footer1_1_1 h5{
     background-color: #121212;
     text-align: center;
     color: white;
